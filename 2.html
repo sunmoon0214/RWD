@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 表格:width寬；heigh高；cellpadding表格內容跟邊框的距離；cellspacing兩個格子間的距離 -->
+    <table border="1" width="500px" cellpadding="10" cellspacing="5">
+        <!-- tr為列 -->
+        <tr>
+            <th>便當</th>
+            <th>數量</th>
+        </tr>
+        <tr>
+                <td>雞腿飯</td>
+                <td>2</td>
+        </tr>
+        <tr>
+                <td>排骨飯</td>
+                <td>3</td>
+            </tr>
+    </table>
+    <p></p>
+    <!-- 長表格 -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>便當</th>
+                <th>數量</th>
+            </tr>
+            <tbody>
+                    <tr>
+                            <td>雞腿飯</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <!-- colspan代表幾格的寬度；rowspan幾格的高度 -->
+                            <td rowspan="2">排骨飯</td>
+                           
+                        </tr>
+                        <tr>
+                            <td colspan="2">海鮮總匯</td>
+                            
+                        </tr>
+            </tbody>
+        </thead>
+    </table>
+</body>
+</html>

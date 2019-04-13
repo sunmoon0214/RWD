@@ -1,0 +1,40 @@
+<!-- 表單 
+    method=post為實際有送出，只是使用者看不到
+    method=get, 在網頁看到的你輸入的東西，ex:帳號、密碼
+    輸入欄位
+    種類type:text為文字；
+    password為密碼；
+    submit為送出按鈕；
+    reset重設按鈕
+    palceholder提示輸入內容；value預設輸入值
+    required為必填欄位-->
+<form action="" method="POST">
+    <input type="text" name="acc" placeholder="請輸入帳號" value="123" required>
+    <input type="password" name="pw" placeholder="請輸入密碼" id="" required>
+    <input type="submit">
+    <input type="reset">
+    <br>
+
+    <!-- 種類type:radio只能單選，以name為群組，不可取消
+    id為判斷你是選哪一個，不然都判斷為on -->
+    單選一 <input type="radio" name="r1" id="1">
+    單選一<input type="radio" name="r1" id="2">
+    <br>
+    單選二<input type="radio" name="r2" id="1">
+    單選二<input type="radio" name="r2" id="2">
+    <br>
+    <!-- 多選
+    種類type:checkbox可複選，且可取消 -->
+    多選<input type="checkbox" name="" id="">
+    <!-- 下拉選單 -->
+    <select name="" id="">
+        <option value="">選項一</option>
+        <option value="">選項二</option>
+        <option value="">選項三</option>
+    </select>
+    <!-- 文字區域 col為橫的字數；row為直的字數 -->
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <!-- 按鈕 -->
+    <input type="button" value="按鈕">
+    <input type="button"><img src="./images/japan1.jpg" alt="">按鈕 </button>
+</form>

@@ -1,0 +1,62 @@
+<!--宣告檔案為HTML5-->
+<!DOCTYPE html>
+<!-- 宣告網頁的範號 -->
+<html>
+    <!-- 網頁資訊,google搜尋時看到的簡介 -->
+    <head>
+            <title>我的第一個網頁</title>
+            <!-- 避免亂碼 -->
+            <meta charset="utf-8">
+            <!-- 網頁ICON -->
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+            <!-- 網頁作者 -->
+            <meta name="author" content="sunmoon">
+            <!-- 網頁關鍵字 -->
+            <meta name="keywords" content="泰山, 網頁, 職訓, html, css">
+            <!-- 說明/敘述 -->
+            <meta name="description" content="這是我的第一個網頁">
+
+    </head>
+
+    <!-- 網頁內容 -->
+    <body>
+        <h1 id="myh1">h1標題</h1>
+        <h2>h2標題</h2>
+        <h3>h3標題</h3>     
+        <h4>h4標題</h4>
+        <h5>h5標題</h5>
+        <h6 id="myh6">h6標題</h6>
+
+        <!-- 分隔線 -->
+        <hr>
+        <!-- p段落，br像我們使用的enter -->
+        <p>段落<br>段落</p>
+        <p>段落段落</p>
+        <!-- b標籤包起來的文字會變粗體，很少用到 -->
+        <p><b>變粗體</b></p>
+        <!-- i標籤為斜體 -->
+        <p><i>變斜體</i></p>
+        <!-- 超連結href="連結" target="目標" title="說明文字" -->
+        <a href="http://tw.yahoo.com" target="_blank" title="請按我">點我進YAHOO</a>
+        <a href="#myh6" title="請按我">點我去h6</a>
+        <a href="#myh1" title="請按我">回頁首</a>
+        <!-- 項目符號 ul代表項目群組，li代表項目 -->
+        <ul>
+            <li>項目一</li>
+            <li>項目二</li>
+        </ul>
+        <!-- ol代表數字項目號，屬性start="50"代表從50開始 -->
+        <ol start="50">
+            <li>數字項目符號1</li>
+            <li>數字項目符號2</li>
+        </ol>
+        <hr>
+        <!-- img圖片；src路徑；alt替代文字，找不到圖片時顯示的文字 ；width與height設定其中一個，就會自動調整-->
+        <img src="./images/Koala.jpg" alt="無尾熊" title="無尾熊" width="300px">
+        <!-- 路徑寫法
+            ./代表目前資料夾
+            ../代表是上層資料夾
+            ../../代表上一層的上一層 -->
+        <img src="../20190330/images/animal/Penguins.jpg" alt="企鵝">
+    </body>
+</html>
